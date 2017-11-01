@@ -1,0 +1,37 @@
+body{
+	background: #000;
+	margin: 0;
+}
+.cabecalho{
+	background-image: url(assets/ft-header.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 50vh; 	
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.cabecalho-img{
+	top: 15%;
+	width: 15%;
+	height:30vh;
+}
+.cabecalho-menu{
+	width: 100%;
+	height: 50vh;
+	padding: 5%;
+	display: flex;
+}
+.menu-item{
+	background-color: rgb(255,255,255, 0.8);
+	font-weight: bolder;
+	text-decoration: none;
+	border-radius: 50px;
+	font-size: 30px;
+	color: #000;
+	height: 18%;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+} 
